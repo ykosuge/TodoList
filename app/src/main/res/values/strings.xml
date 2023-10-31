@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">TodoApp</string>
+    <string name="title_error">エラー</string>
+    <string name="msg_unknown_error">不明なエラーが発生しました</string>
+    <string name="action_close">閉じる</string>
+    <string name="title_register">登録</string>
+    <string name="title_update">更新</string>
+    <string name="msg_success_snack_bar">%1$sしました</string>
+    <string name="msg_delete_confirmation">「%1$s」を削除します。\nよろしいですか？</string>
+</resources>
