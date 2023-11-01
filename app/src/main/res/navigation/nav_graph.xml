@@ -8,23 +8,6 @@
     <fragment
         android:id="@+id/fragment_list"
         android:name="com.sonix.todoapp.presentaiton.list.ListFragment"
-        tools:layout="@layout/fragment_list">
-
-        <action
-            android:id="@+id/action_list_to_edit"
-            app:destination="@+id/fragment_edit" />
-    </fragment>
-
-    <fragment
-        android:id="@+id/fragment_edit"
-        android:name="com.sonix.todoapp.presentaiton.edit.EditFragment"
-        tools:layout="@layout/fragment_edit" >
-
-        <argument
-            android:name="todo"
-            app:argType="com.sonix.todoapp.model.Todo"
-            app:nullable="true"
-            android:defaultValue="@null" />
-    </fragment>
+        tools:layout="@layout/fragment_list"/>
 
 </navigation>

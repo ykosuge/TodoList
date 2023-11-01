@@ -87,8 +87,7 @@ class ListFragment : Fragment() {
 
     /** 登録・更新画面に遷移する */
     private fun goToTodoEditScreen(todo: Todo?) {
-        val action = ListFragmentDirections.actionListToEdit(todo)
-        findNavController().navigate(action)
+
     }
 
     /** Todoの一覧をサーバーから取得する */
